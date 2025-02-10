@@ -1,0 +1,7 @@
+:host {
+  background-color: var(--secondary-color);
+  width: calc(100%- 1rem);
+  min-height: 100vh;
+  display: flex;
+  padding: 1rem;
+}
