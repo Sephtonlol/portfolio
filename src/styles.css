@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  margin: 0rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0rem;
+  color: var(--white-color);
+}
+h1 {
+  font-weight: 1000;
+}
+
+:root {
+  --primary-color: #0d1926;
+  --secondary-color: #1a324c;
+  --white-color: #d9e5f2;
+}
