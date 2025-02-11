@@ -1,0 +1,41 @@
+<ul class="list">
+  @for(language of languages; track language){
+  <li>
+    <img src="../../../assets/icons/languages/{{ language }}.png" alt="" />
+    <span>
+      {{ language }}
+    </span>
+  </li>
+  }
+</ul>
+<ul class="list cloned">
+  @for(language of languages; track language){
+  <li>
+    <img src="../../../assets/icons/languages/{{ language }}.png" alt="" />
+    <span>
+      {{ language }}
+    </span>
+  </li>
+  }
+</ul>
+<ul class="list right">
+  @for(framework of frameworks; track framework){
+  <li>
+    <img src="../../../assets/icons/frameworks/{{ framework }}.png" alt="" />
+    <span>
+      {{ framework }}
+    </span>
+  </li>
+  }
+</ul>
+<ul class="list cloned right">
+  @for(framework of frameworks; track framework){
+  <li>
+    <img src="../../../assets/icons/frameworks/{{ framework }}.png" alt="" />
+    <span>
+      {{ framework }}
+    </span>
+  </li>
+  }
+</ul>
+<div class="gradient"></div>

@@ -9,13 +9,17 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+li,
+ul {
   font-family: "Josefin Sans", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   margin: 0rem;
   color: var(--white-color);
+  text-decoration: none;
+  list-style-type: none;
 }
 h1 {
   font-weight: 1000;
@@ -25,4 +29,5 @@ h1 {
   --primary-color: #0d1926;
   --secondary-color: #1a324c;
   --white-color: #d9e5f2;
+  --offset-color: #cda3f5;
 }
